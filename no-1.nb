@@ -1,0 +1,146 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 15.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      4793,        138]
+NotebookOptionsPosition[      3652,        114]
+NotebookOutlinePosition[      4053,        130]
+CellTagsIndexPosition[      4010,        127]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.9996041147712727`*^9, 3.999604225155279*^9}, {
+   3.9996043603487625`*^9, 3.999604361732973*^9}, 
+   3.9996044488423347`*^9},ExpressionUUID->"3f5645a7-791e-0f44-9c1d-\
+c5df27a56261"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"fact", "=", "1"}], ";"}], "\n", 
+ RowBox[{"Do", "[", 
+  RowBox[{
+   RowBox[{"fact", "=", 
+    RowBox[{"fact", "*", "i"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", "1", ",", "12"}], "}"}]}], 
+  "]"}], "\n", "fact"}], "Input",
+ CellChangeTimes->{{3.999604464632908*^9, 3.999604464632908*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"2544ecda-bc7a-aa4b-9195-bc4a81f0d0c7"],
+
+Cell[BoxData["479001600"], "Output",
+ CellChangeTimes->{3.9996044674277096`*^9},
+ CellLabel->"Out[9]=",ExpressionUUID->"2efacfe2-289e-724b-a049-de6f31cc0230"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set", "wrsym", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"Factorial\\\"}]\\) is Protected.\"", 2, 4, 
+   3, 33350249317164140605, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
+ GeneratedCell->False,
+ CellAutoOverwrite->False,
+ CellChangeTimes->{
+  3.999604321665125*^9, 3.9996043833728275`*^9, {3.999604459318615*^9, 
+   3.999604460366209*^9}},ExpressionUUID->"e6357241-020a-d74c-b94a-\
+80e84395bf10"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set", "wrsym", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"Factorial\\\"}]\\) is Protected.\"", 2, 5, 
+   4, 33350249317164140605, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
+ CellChangeTimes->{3.999604321665125*^9, 3.9996043833786583`*^9},
+ CellLabel->
+  "During evaluation of \
+In[4]:=",ExpressionUUID->"3d826c6c-cd6d-854d-9774-44e225b0b5a9"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set", "wrsym", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"Factorial\\\"}]\\) is Protected.\"", 2, 5, 
+   5, 33350249317164140605, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
+ CellChangeTimes->{3.999604321665125*^9, 3.999604383380663*^9},
+ CellLabel->
+  "During evaluation of \
+In[4]:=",ExpressionUUID->"e349747a-d701-ff44-bc35-4035763f2d8b"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set", "wrsym", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"Factorial\\\"}]\\) is Protected.\"", 2, 5, 
+   6, 33350249317164140605, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
+ CellChangeTimes->{3.999604321665125*^9, 3.9996043833923836`*^9},
+ CellLabel->
+  "During evaluation of \
+In[4]:=",ExpressionUUID->"6ee34411-c8b7-f344-8f24-aac1ae01ec28"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General", "stop", 
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"Set\\\", \\\"::\\\", \\\
+\"wrsym\\\"}], \\\"MessageName\\\"]\\) will be suppressed during this \
+calculation.\"", 2, 5, 7, 33350249317164140605, "Local"},
+  "MessageTemplate",
+  BaseStyle->"MSG"]], "Message",
+ CellChangeTimes->{3.999604321665125*^9, 3.9996043833923836`*^9},
+ CellLabel->
+  "During evaluation of \
+In[4]:=",ExpressionUUID->"158f5070-b9e3-bf42-8edf-c004cdd8f12c"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.999604453811863*^9, 
+  3.999604454533514*^9}},ExpressionUUID->"07c194a5-5208-0044-b6b5-\
+53c54b7232c6"]
+},
+WindowSize->{960, 472},
+WindowMargins->{{-5.5, Automatic}, {Automatic, -5.5}},
+FrontEndVersion->"15.0 for Microsoft Windows (64-bit) (July 2, 2026)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"cc810764-837b-c144-bd10-5a1fdc97d3bd"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[554, 20, 231, 4, 28, "Input",ExpressionUUID->"3f5645a7-791e-0f44-9c1d-c5df27a56261"],
+Cell[CellGroupData[{
+Cell[810, 28, 410, 11, 66, "Input",ExpressionUUID->"2544ecda-bc7a-aa4b-9195-bc4a81f0d0c7"],
+Cell[1223, 41, 158, 2, 32, "Output",ExpressionUUID->"2efacfe2-289e-724b-a049-de6f31cc0230"],
+Cell[1384, 45, 443, 12, 26, "Message",ExpressionUUID->"e6357241-020a-d74c-b94a-80e84395bf10"],
+Cell[1830, 59, 387, 10, 26, "Message",ExpressionUUID->"3d826c6c-cd6d-854d-9774-44e225b0b5a9"],
+Cell[2220, 71, 385, 10, 26, "Message",ExpressionUUID->"e349747a-d701-ff44-bc35-4035763f2d8b"],
+Cell[2608, 83, 387, 10, 26, "Message",ExpressionUUID->"6ee34411-c8b7-f344-8f24-aac1ae01ec28"],
+Cell[2998, 95, 483, 11, 26, "Message",ExpressionUUID->"158f5070-b9e3-bf42-8edf-c004cdd8f12c"]
+}, Open  ]],
+Cell[3496, 109, 152, 3, 28, "Input",ExpressionUUID->"07c194a5-5208-0044-b6b5-53c54b7232c6"]
+}
+]
+*)
+
